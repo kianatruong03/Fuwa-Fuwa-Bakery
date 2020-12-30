@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  height: 140px;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-bar ul {
+  float: right;
+}
+
+.nav-bar ul li {
+  list-style: none;
+  display: inline;
+  position: relative;
+  top: 45px;
+  padding: 20px;
+  font-family: "Chilanka", cursive;
+  font-size: 28px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  width: 100%;
+  height: 850px;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/cdn.nordic-wewalka/styles/recipe_banner/s3/ww-blaetterteigpasteten_2905.jpg?itok=_vQ1eOCv");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(0.8);
+  background-position: center;
+}
+
+.logo {
+  width: 500px;
+  height: 145px;
+  margin-left: 23px;
+  position: relative;
+  top: -10px;
+  padding: 3px;
+}
+
+.intro {
+  font-size: 25px;
+  font-family: "Chilanka", cursive;
+  position: relative;
+  text-align: center;
+  color: #594a47;
+  padding: 50px;
+  margin: 70px;
+  background-color: #ffe0e9;
+  filter: opacity(0.9);
+  border-style: dotted;
+}
+
+hr:hover {
+  width: 800px;
+  transition: ease 3s;
+}
+
+/*This is how you make a black tiny line extend refrence will be below the border box*/
+
+.underline {
+  border-bottom: #ffe0e9 3px solid;
+  width: 75px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Chilanka", cursive;
+  color: #594a47;
+  filter: opacity(0.7);
+}
+
+.underline:hover {
+  width: 200px;
+  transition: ease 3s;
+}
+/*This is how you make a pink tiny line extend ooooooo, now center it*/
+
+.instagram {
+  width: 100%;
+  font-size: 30px;
+  font-family: "Chilanka", cursive;
+  color: #594a47;
+  position: relative;
+  text-align: center;
+  padding: 30px 0;
+  filter: opacity(0.9);
+  margin: -15px;
+  margin-top: 50px;
+}
+
+.ig {
+  font-size: 30px;
+  font-family: "Chilanka", cursive;
+  color: #594a47;
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  filter: opacity(0.9);
+  margin: -15px;
+  margin-top: 50px;
+}
+
+hr {
+  width: 200px;
+  height: 3px;
+  background-color: #594a47;
+  top: -15px;
+  transition: ease 5s;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.B {
+  padding: 8px;
+  border: 7px solid #ffe0e9;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service {
+  padding-top: 80px;
+  position: relative;
+  text-align: center;
+  color: #594a47;
+  font-size: 30px;
+  font-family: "Chilanka", cursive;
+}
+
+.delivery {
+  margin: px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+.order {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+/*Footer line*/
+
+footer {
+  background: #ffe0e9;
+  color: #594a47;
+  height: 350px;
+  position: relative;
+}
+
+footer .footer-content {
+  height: 300px;
+  display: flex;
+}
+
+footer .footer-content .footer-section {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid white;
+}
+
+footer .footer-content .footer-section-about {
+  position: relative;
+  align-items: center;
+  padding-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  width: 600px;
+  font-family: "Chilanka", cursive;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: left 8px;
+}
+
+.footer-section-links nav ul {
+  display: block;
+  position: relative;
+  top: 10px;
+  padding: 0px;
+  font-family: "Chilanka", cursive;
+  font-size: 22px;
+  margin-right: 450px;
+}
+
+.footer-section-links nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-section-contact {
+  box-sizing: border-box;
+  height: 290px;
+  border-color: #594a47;
+}
+
+.contact-us {
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+
+.container {
+  border: #594a47 solid 1px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-bottom: 7px;
+  padding-top: 3px;
+  width: 480px;
+}
+
+#title-labels {
+  font-size: 18px;
+  color: #594a47;
+  font-family: "Chilanka", cursive;
+  text-align: center;
+  padding: 10px;
+}
+
+#footer-fname {
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  border: #594a47 solid 1px;
+}
+
+#footer-lname {
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  border: #594a47 solid 1px;
+}
+
+#footer-email {
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  border: #594a47 solid 1px;
+}
+
+#footer-comment {
+  padding-top: 0px;
+  width: 450px;
+  height: 100px;
+  border-radius: 5px;
+  border: #594a47 solid 1px;
+}
+
+button [type="button"] {
+  padding: 20px;
+  width: 0px;
+  display: inline-block;
+  text-align: center;
+}
+
+footer .footer-bottom {
+  background: #fcc5d4;
+  color: #f87399;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .nav-bar ul li {
+    font-size: 20px;
+  }
+}
+
+/*This is how you make a comment in css dumb*/
+/*Media quairy is a way for you to adjust you things to fit other devices like ipad or phone.*/
